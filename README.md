@@ -1,12 +1,12 @@
-# CollabSpace
-
-**Real-time collaborative editor and whiteboard** — built with FastAPI, WebSockets, Redis Pub/Sub, PostgreSQL, and React.
-
 [![CI](https://github.com/AdithyaRaoK14/CollabSpace-Real-time-collaborative-editor-and-whiteboard/actions/workflows/ci.yml/badge.svg)](https://github.com/AdithyaRaoK14/CollabSpace-Real-time-collaborative-editor-and-whiteboard/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.11-blue?style=flat-square)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.136-green?style=flat-square)
 ![React](https://img.shields.io/badge/React-18-61dafb?style=flat-square)
 ![Docker](https://img.shields.io/badge/docker-compose-2496ED?style=flat-square)
+
+# CollabSpace
+
+**Real-time collaborative editor and whiteboard** — built with FastAPI, WebSockets, Redis Pub/Sub, PostgreSQL, and React.
 
 ---
 
