@@ -7,7 +7,6 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.136-green?style=flat-square)
 ![React](https://img.shields.io/badge/React-18-61dafb?style=flat-square)
 ![Docker](https://img.shields.io/badge/docker-compose-2496ED?style=flat-square)
-![License](https://img.shields.io/badge/license-MIT-purple?style=flat-square)
 
 ---
 
@@ -238,8 +237,4 @@ Test coverage includes registration, login, duplicate user detection, and authen
 - **No Alembic migrations** — schema is created via `create_all()` on startup. Production would use Alembic for versioned migrations.
 - **Canvas grows unbounded** — strokes are appended indefinitely. A production system would implement stroke limits or canvas snapshotting.
 
----
 
-## License
-
-MIT
