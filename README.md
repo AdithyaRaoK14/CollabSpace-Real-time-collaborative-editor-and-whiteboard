@@ -7,7 +7,6 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.136-green?style=flat-square)
 ![React](https://img.shields.io/badge/React-18-61dafb?style=flat-square)
 ![Docker](https://img.shields.io/badge/docker-compose-2496ED?style=flat-square)
-![License](https://img.shields.io/badge/license-MIT-purple?style=flat-square)
 
 ---
 
