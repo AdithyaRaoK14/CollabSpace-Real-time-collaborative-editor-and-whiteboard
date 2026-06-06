@@ -5,6 +5,11 @@ from app.main import app
 from app.core.database import init_db
 
 
+@pytest_asyncio.fixture(scope="session", autouse=True)
+async def setup_db():
+    await init_db()
+
+
 @pytest.mark.asyncio
 async def test_register():
     async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as client:
