@@ -90,7 +90,7 @@ When a user edits text or draws a stroke, the FastAPI instance they're connected
 ### Run with Docker Compose
 
 ```bash
-git clone https://github.com/AdithyaRaoK14/collabspace.git
+git clone https://github.com/AdithyaRaoK14/CollabSpace-Real-time-collaborative-editor-and-whiteboard.git
 cd collabspace
 docker-compose up --build
 ```
