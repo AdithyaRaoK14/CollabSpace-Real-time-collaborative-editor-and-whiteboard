@@ -25,5 +25,10 @@ async def get_db():
 
 
 async def init_db():
+    # Import models so SQLAlchemy registers them with Base.metadata
+    from app.models.user import User
+    from app.models.room import Room, RoomMember
+    from app.models.document import Document
+
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)
