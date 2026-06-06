@@ -8,6 +8,7 @@ from app.core.database import init_db
 @pytest_asyncio.fixture(scope="session", autouse=True)
 async def setup():
     await init_db()
+    yield
 
 
 @pytest.mark.asyncio
